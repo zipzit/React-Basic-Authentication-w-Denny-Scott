@@ -34,6 +34,7 @@ import Admin from "./pages/Admin";
 import { AuthContext } from "./context/auth";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import "./styles.css";
 
 function App(props) {
   const existingTokens = JSON.parse(localStorage.getItem("tokens"));
